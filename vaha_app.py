@@ -157,14 +157,14 @@ with left:
                     elif Rn < RN_T2:
                         return "Zvolil jsem si autenticitu, ale nezaslepenou."
                     else:
-                        return "Nedělám morální kompromisy. Ani za cenu následků."
+                        return "Jdu si za tím, čemu věřím."
                 elif E > A:
                     if Rn < RN_T1:
-                        return "Vyhrává u mě rodina, ale mám i své přesvědčení."
+                        return "Vyhrává u mě rodina, ale mám i svoje názory."
                     elif Rn < RN_T2:
-                        return "Nemůžu se na rodinu vykašlat. Ale nepřestávám ani bojovat."
+                        return "Nemůžu se na rodinu vykašlat. Ale moje názory jsou pro mě taky důležité."
                     else:
-                        return "Moje rodina = moje priorita. Systém se může zbořit sám."
+                        return "Moje rodina = moje priorita."
                 else:
                     return "Zvažuju, balancuju, snažím se volit podle situace."
 
