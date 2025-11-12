@@ -155,7 +155,7 @@ with left:
                     if Rn < RN_T1:
                         return "Neřídím se davem – žádným."
                     elif Rn < RN_T2:
-                        return "Zvolil jsem si autenticitu, ale nezaslepenou."
+                        return "Volím autenticitu, ale nezaslepenou."
                     else:
                         return "Jdu si za tím, čemu věřím."
                 elif E > A:
