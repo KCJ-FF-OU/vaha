@@ -108,16 +108,19 @@ left, right = st.columns([2, 1])
 
 with left:
     st.title("VáHa – autenticita versus empatie")
-    st.write(
+    st.markdown(
         "Čekají tě čtyři roky, čtyři milníky, čtyři rozhodnutí. "
         "Každé tvé rozhodnutí se hodnotí co do autenticity (AUT) a empatie (EMP). "
         "Jako autentická se hodnotí ta rozhodnutí, která vycházejí z tvého přesvědčení. "
-        "Za empatická považujeme rozhodnutí, která mají za cíl ochránit tvé blízké. " 
+        "Za empatická považujeme rozhodnutí, která mají za cíl ochránit tvé blízké.\n\n"
+        
         "Na konci uvidíš shrnutí své cesty a sílu tvého postoje. "
         "Maximální hodnota síly postoje je 1, minimální 0. "
         "Jde především o to, jak konzistentní byly tvoje volby. "
-        "Nejedná se o morální soud. "
-        "Poznámka: VáHa je hra. Nejde o učební platformu dějepisu. Pracuje s alternativní historií, ale snaží se o věrohodnost a smysluplnost."
+        "Nejedná se o morální soud.\n\n"
+
+        "Poznámka: VáHa je hra. Nejde o učební platformu dějepisu. "
+        "Pracuje s dějinami volně, ale snaží se o věrohodnost a smysluplnost."
     )
     st.divider()
 
